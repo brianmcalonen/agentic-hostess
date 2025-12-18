@@ -13,7 +13,7 @@ dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// --- Load restaurant knowledge file ---
+// --- Loads restaurant knowledge file ---
 const restaurantInfoPath = path.join(__dirname, "data", "restaurant.json");
 let restaurantInfo = {};
 
