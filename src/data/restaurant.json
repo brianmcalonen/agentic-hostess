@@ -1,0 +1,42 @@
+{
+    "name": "The Copper Spoon",
+    "address": "243 Market Street, Riverbend City, CA",
+    "phone": "(555) 282-7712",
+    "cuisine": "Modern American",
+    "hours": {
+      "monday": "Closed",
+      "tuesday": "5 PM – 10 PM",
+      "wednesday": "5 PM – 10 PM",
+      "thursday": "5 PM – 10 PM",
+      "friday": "5 PM – 11 PM",
+      "saturday": "10 AM – 11 PM (brunch 10–2)",
+      "sunday": "10 AM – 9 PM (brunch 10–2)"
+    },
+    "reservation_policy": {
+      "min_party_size": 1,
+      "max_party_size": 8,
+      "large_party_threshold": 9,
+      "hold_time_minutes": 10,
+      "required_fields": ["name", "party size", "date", "time", "phone number"]
+    },
+    "menu": {
+      "starters": ["Crispy Brussels", "Burrata Toast", "Lobster Bisque"],
+      "mains": ["Ribeye Steak", "Pan-Seared Salmon", "Truffle Pasta", "Veggie Bowl"],
+      "desserts": ["Chocolate Lava Cake", "Honey Cheesecake"],
+      "brunch": ["Brioche French Toast", "Crab Benedict", "Breakfast Hash"],
+      "cocktails": ["Lavender Gin Spritz", "Smoked Old Fashioned"]
+    },
+    "parking": {
+      "garage": "Validated parking garage next door",
+      "street": "Free after 6 PM",
+      "public_transit": "Near Riverbend Light Rail – Market Street Station"
+    },
+    "policies": {
+      "pets": "No pets indoors except service animals",
+      "patio": "First-come, first-served",
+      "dress_code": "Smart casual",
+      "corkage_fee": "$25 per bottle",
+      "cake_fee": "$15 plating fee"
+    }
+  }
+  
